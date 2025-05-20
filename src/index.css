@@ -1,0 +1,28 @@
+@import "tailwindcss";
+#root{
+    align-self: center;
+    position: relative;
+    width: 70%;
+    margin-inline: auto;
+}
+body{
+    background-color: rgb(197, 209, 210);
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+@media (max-width:768px) { 
+    #root{
+        width: 100%;
+        font-size: 12px;
+    }
+ }
+ /* @media (max-width:500px) { 
+    #root{
+        width: 100%;
+    }
+    .Todo{
+        padding: 25px;
+    }
+ } */
