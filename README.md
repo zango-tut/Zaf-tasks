@@ -1,12 +1,64 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive todo application built with React that allows you to add, edit, complete, and delete tasks. Features include local storage persistence and task filtering.
 
-Currently, two official plugins are available:
+![Todo App Screenshot](https://i.imgur.com/example-screenshot.png) *(Replace with actual screenshot)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- ? Add new tasks
+- ?? Edit existing tasks
+- ? Mark tasks as complete
+- ?? Delete tasks
+- ? Filter tasks (All/Completed/Remaining)
+- ? Automatic local storage saving
+- ? Fully responsive design (works on mobile, tablet, and desktop)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/zango-tut/Zaf-tasks.git
+ 
+2.Navigate to the project directory:
+```cd Zaf-tasks```
+3.Install dependencies:
+```npm install```
+4.Start the development server:
+```npm run dev```
+## Usage
+Adding a Task:
+    Type your task in the input field
+    Click "Add Task" or press Enter
+
+Editing a Task:
+    Click the edit (??) button on the task you want to edit
+    The task text will appear in the input field
+    Make your changes and click "Update Task"
+    
+Completing a Task:
+    Click the checkbox next to any task to mark it as complete/incomplete
+
+Deleting a Task:
+    Click the delete (??) button on the task you want to remove
+
+Filtering Tasks:
+
+Use the filter buttons at the top to view:
+
+    All tasks
+
+    Only completed tasks
+
+    Only remaining tasks
+
+Technologies Used:
+
+    React (Vite)
+
+    Tailwind CSS
+
+    UUID (for generating unique IDs)
+
+    LocalStorage (for data persistence)
+
